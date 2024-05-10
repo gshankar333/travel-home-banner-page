@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text-3d {
+  text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333; /* Multiple shadows to create 3D effect */
+}
+.react-multi-carousel-dot-list{
+  bottom: -4px;
+}
+.react-multi-carousel-item{
+  height: 310px;
+}
+.react-multi-carousel-dot--active button{
+  background-color: white;
+}
+.react-multi-carousel-dot button{
+  border-color: white;
+}
